@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #35424a;
+  color: white;
+  border-bottom: #a9508b 3px solid;
+}
+.head-left,
+.left-line {
+  margin-left: 10em;
+}
+.head-right,
+.right-line {
+  margin-right: 10em;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+header li {
+  padding: 0 20px 0 20px;
+  display: inline-flex;
+}
+
+.Clarusway {
+  color: #a9508b;
+}
+#Service{
+    color:#A9508B;
+    font-weight: bold;
+}
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #35424a;
+  color: white;
+}
+#Emailbox {
+  width: 25vh;
+  height: 3vh;
+}
+#SubButton {
+  width: 12vh;
+  height: 4vh;
+  background-color: #a9508b;
+  color: #f4f4f4;
+  border: none;
+}
+
+.main3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.main3-left {
+  display: flex;
+  flex-direction: column;
+}
+.main3-left-p {
+  background-color: #e6e6e6;
+  margin-top: 10px;
+  padding: 30px;
+}
+.main3-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #35424a;
+  margin-top: 20px;
+  color: #f4f4f4;
+  padding: 10px 30px;
+  height: 20em;
+  line-height: 3vh;
+}
+#name,
+#email,
+#message {
+  width: 350px;
+  height: 25px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+#send {
+  width: 60px;
+  height: 30px;
+  background-color: #a9508b;
+  color: #f4f4f4;
+  border: none;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9rem ;
+    background-color: rgb(255,250,240);
+    border-top: 3px solid #a9508b;
+    margin-top: 2em;
+  }
+  @media only screen and (max-width:1024px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .main2 {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      padding-bottom: 1em;
+    }
+    .head-left, .left-line {
+      margin-left: 0px ;
+  }
+    .head-right, .right-line {
+      margin-right: 0px;
+    }
+    header li {
+    padding-left:0px;
+    margin-right:10px;
+  }
+  .main3 {
+    flex-direction: column;
+  }
+  .main3-left-p h3,.main3-left-title h3{
+    text-align: center;
+  }
+  .main3-left-p{
+    margin-top: 0px;
+    border-bottom: 2px solid #35424a;
+  }
+  .main3-right {
+    align-items: center;
+    height: auto;
+    line-height: 5vh;
+    margin-top: 0px;
+  }
+  .bottom {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width:440px) {
+  .head-left h1 {
+    font-size: 4vh;
+  }
+  .head-right li {
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width:380px){
+  #name,
+  #email,
+  #message {
+  width: 20em;
+  height: 2empx;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.main3-right {
+  line-height: 5vh;
+}
+}
