@@ -78,7 +78,7 @@ header li {
 }
 .main3-left-p {
   background-color: #e6e6e6;
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 30px;
 }
 .main3-right {
@@ -111,10 +111,10 @@ header li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 9rem ;
+    height: 8.5rem ;
     background-color: rgb(255,250,240);
     border-top: 3px solid #a9508b;
-    margin-top: 2em;
+    margin-top: 1em;
   }
   @media only screen and (max-width:1024px) {
     header {
