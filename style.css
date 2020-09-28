@@ -50,7 +50,7 @@ header li {
 .main1 {
   text-align: center;
   height: 400px;
-  background: url(/images/showcase.jpg);
+  background: url(./images/showcase.jpg);
   justify-content: center;
   align-items: center;
   display: flex;
