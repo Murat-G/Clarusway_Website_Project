@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #35424a;
+  color: white;
+  border-bottom: #a9508b 3px solid;
+}
+.head-left, .left-line {
+    margin-left: 10em ;
+}
+.head-right, .right-line {
+    margin-right: 10em;
+}
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+header li {
+  padding: 0 20px 0 20px;
+  display: inline-flex;
+}
+
+.Clarusway {
+  color: #a9508b;
+}
+#Home{
+  color:#A9508B;
+  font-weight: bold;
+}
+
+/* section  */
+.main1 {
+  text-align: center;
+  height: 400px;
+  background: url(/images/showcase.jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-page {
+  width: 80%;
+}
+.middle-page h1 {
+  margin: 0px;
+  font-size: 50px;
+  color: white;
+}
+.main1 p {
+  font-size: 20px;
+  color: white;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #35424a;
+  color: white;
+}
+.right-line {
+  display: flex;
+  align-items: center;
+}
+#Emailbox {
+    width: 25vh;
+    height: 3vh;
+    margin-right: 10px;
+}
+#SubButton {
+    width: 12vh;
+    height: 4vh;
+    background-color: #a9508b;
+    color: #f4f4f4;
+    border: none;
+}
+
+.main3 {
+  display: flex;
+  border-bottom:  #a9508b 3px solid;
+  height: 250px;
+}
+
+.main3 p {
+  margin: 0px 50px;
+}
+.images {
+  width: 6em;
+  height: auto;
+  margin: 20px auto 0px;
+}
+.logos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 9rem ;
+  background-color: rgb(255,250,240);
+}
+
+@media only screen and (max-width:980px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .middle-page h1 {
+    font-size: 40px;
+  }
+  .main1 p {
+    font-size: 20px;
+  }
+  .main2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .head-left, .left-line {
+    margin-left: 0px ;
+}
+  .head-right, .right-line {
+    margin-right: 0px;
+  }
+  .main3 {
+    height: auto;
+  }
+  .right-line {
+    margin-bottom: 20px;
+  }
+  
+  header li {
+  padding-left:0px;
+  margin-right:10px;
+}
+}
+@media only screen and (max-width:680px) {
+  .middle-page h1 {
+    font-size: 30px;
+  }
+  .main1 p {
+    font-size: 15px;
+  }
+  .main3 {
+    flex-direction: column;
+    height: auto;
+  }
+  .logos {
+    margin-bottom: 20px;
+  }
+  .right-line {
+    margin-bottom: 20px;
+  }
+  
+  header li {
+  padding-left:0px;
+  margin-right:10px;
+}
+}
+@media only screen and (max-width:440px) {
+  .head-left h1 {
+    font-size: 4vh;
+  }
+  .head-right li {
+    margin-right: 5px;
+  }
+}
